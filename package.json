@@ -1,0 +1,27 @@
+{
+  "name": "pangolinproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon back/app.js",
+    "start": "cd front "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hauretax/pangolinproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hauretax/pangolinproject/issues"
+  },
+  "homepage": "https://github.com/hauretax/pangolinproject#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.4",
+    "mongoose-unique-validator": "^3.1.0",
+    "nodemon": "^2.0.19"
+  }
+}
